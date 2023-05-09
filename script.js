@@ -163,7 +163,7 @@ if (height) {
 }*/
 
 // equality operators
-const age = '18';
+/*const age = '18';
 
 if (age === 18) console.log('You just became an adult :D (strict)');
 
@@ -183,4 +183,46 @@ if (favourite === 23) {
 	console.log('Number is not 23 or 7 or 9');
 }
 
-if (favourite !== 23) console.log('Why not 23');
+if (favourite !== 23) console.log('Why not 23');*/
+
+// Logical Operators
+/*const hasDriversLicense = true; // A
+const hasGoodVision = true; // B
+
+console.log(hasDriversLicense && hasGoodVision);
+console.log(hasDriversLicense || hasGoodVision);
+console.log(!hasDriversLicense);
+
+const isTired = false; // C
+console.log(hasDriversLicense && hasGoodVision && isTired);
+
+if (hasDriversLicense && hasGoodVision && !isTired) {
+	console.log('Sarah is able to drive!');
+} else {
+	console.log('Someone else should drive...');
+}*/
+
+const dolphinsAvg2 = Math.floor((96 + 108 + 89) / 3);
+const koalasAvg2 = Math.floor((88 + 91 + 110) / 3);
+//Bonus 1
+const dolphinsAvg3 = Math.floor((97 + 112 + 101) / 3);
+const koalasAvg3 = Math.floor((109 + 95 + 123) / 3);
+//Bonus 2
+const dolphinsAvg = Math.floor((97 + 112 + 101) / 3);
+const koalasAvg = Math.floor((97 + 12 + 101) / 3);
+
+console.log(`Dolphins average score is: ${dolphinsAvg}
+Koalas average score is: ${koalasAvg}`);
+
+if (dolphinsAvg >= 100 || koalasAvg >= 100) {
+	if (dolphinsAvg > koalasAvg) {
+		console.log('Dolphins are the winner of the competition 🏆');
+	} else if (dolphinsAvg < koalasAvg) {
+		console.log('Koalas are the winner of the competition 🏆');
+	} else {
+		console.log('There is a draw. Both teams have drawn.');
+	}
+} else {
+	// Bonus 1
+	console.log('No team gets a trophy 😞');
+}
