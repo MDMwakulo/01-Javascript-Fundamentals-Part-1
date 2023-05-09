@@ -1,5 +1,5 @@
 /*let js = 'amazing';
-console.log(40 + 8 + 10);
+/*console.log(40 + 8 + 10);
 
 let firstName = 'Verah';
 console.log(firstName);
@@ -23,43 +23,6 @@ const compareAvgPopulation = population > avgPopulation;
 
 console.log(country, continent, population, compareTwoCountries, compareAvgPopulation);
 console.log(country + ' is in ' + continent + ',' + ' and its ' + population + ' people speak ' + language + '.');*/
-
-//Coding Challenge 2
-/*const markMass1 = 78,
-	markHeight1 = 1.69,
-	johnMass1 = 92,
-	johnHeight1 = 1.95,
-	markMass2 = 95,
-	markHeight2 = 1.88,
-	johnMass2 = 85,
-	johnHeight2 = 1.76;
-
-const markBMI1 = Math.floor(markMass1 / markHeight1 ** 2),
-	markBMI2 = Math.floor(markMass2 / (markHeight2 * markHeight2)),
-	johnBMI1 = Math.floor(johnMass1 / johnHeight1 ** 2),
-	johnBMI2 = Math.floor(johnMass2 / (johnHeight2 * johnHeight2));
-
-console.log(markBMI1, markBMI2, johnBMI1, johnBMI2);
-
-const markHigherBMI1 = markBMI1 > johnBMI1,
-	markHigherBMI2 = markBMI2 > johnBMI2;
-console.log(markHigherBMI1, markHigherBMI2);
-
-if (markBMI1 > johnBMI1) {
-	console.log(`Mark's BMI  is higher that John's.
-Mark's BMI (${markBMI1}) is higher than John's (${johnBMI1}).`);
-} else {
-	console.log(`John's BMI is higher than Mark's.
-John's BMI (${markBMI1}) is higher than Mark's (${johnBMI1}).`);
-}
-
-if (markBMI2 > johnBMI2) {
-	console.log(`Mark's BMI  is higher that John's.
-Mark's BMI (${markBMI2}) is higher than John's (${johnBMI2}).`);
-} else {
-	console.log(`John's BMI is higher than Mark's.
-John's BMI (${markBMI2}) is higher than Mark's (${johnBMI2}).`);
-}*/
 
 /*let javascriptIsFun = true;
 console.log(typeof javascriptIsFun);
@@ -104,7 +67,7 @@ console.log(`String with
 with multiple
 lines.`);*/
 
-const age = 15;
+/*const age = 15;
 
 if (age >= 18) {
 	console.log('Sarah can start driving license 🚗.');
@@ -120,4 +83,41 @@ if (birthYear <= 2000) {
 } else {
 	century = 21;
 }
-console.log(`${century} century.`);
+console.log(`${century} century.`);*/
+
+//Coding Challenge 2
+const markMass1 = 78,
+	markHeight1 = 1.69,
+	johnMass1 = 92,
+	johnHeight1 = 1.95,
+	markMass2 = 95,
+	markHeight2 = 1.88,
+	johnMass2 = 85,
+	johnHeight2 = 1.76;
+
+const markBMI1 = Math.floor(markMass1 / markHeight1 ** 2),
+	markBMI2 = Math.floor(markMass2 / (markHeight2 * markHeight2)),
+	johnBMI1 = Math.floor(johnMass1 / johnHeight1 ** 2),
+	johnBMI2 = Math.floor(johnMass2 / (johnHeight2 * johnHeight2));
+
+console.log(markBMI1, markBMI2, johnBMI1, johnBMI2);
+
+const markHigherBMI1 = markBMI1 > johnBMI1,
+	markHigherBMI2 = markBMI2 > johnBMI2;
+console.log(markHigherBMI1, markHigherBMI2);
+
+if (markBMI1 > johnBMI1) {
+	console.log(`Mark's BMI  is higher that John's.
+Mark's BMI (${markBMI1}) is higher than John's (${johnBMI1}).`);
+} else {
+	console.log(`John's BMI is higher than Mark's.
+John's BMI (${markBMI1}) is higher than Mark's (${johnBMI1}).`);
+}
+
+if (markBMI2 > johnBMI2) {
+	console.log(`Mark's BMI  is higher that John's.
+Mark's BMI (${markBMI2}) is higher than John's (${johnBMI2}).`);
+} else {
+	console.log(`John's BMI is higher than Mark's.
+John's BMI (${markBMI2}) is higher than Mark's (${johnBMI2}).`);
+}
