@@ -86,7 +86,7 @@ if (birthYear <= 2000) {
 console.log(`${century} century.`);*/
 
 //Coding Challenge 2
-const markMass1 = 78,
+/*const markMass1 = 78,
 	markHeight1 = 1.69,
 	johnMass1 = 92,
 	johnHeight1 = 1.95,
@@ -120,4 +120,21 @@ Mark's BMI (${markBMI2}) is higher than John's (${johnBMI2}).`);
 } else {
 	console.log(`John's BMI is higher than Mark's.
 John's BMI (${markBMI2}) is higher than Mark's (${johnBMI2}).`);
-}
+}*/
+
+// type conversion
+const inputYear = '1997';
+console.log(Number(inputYear), inputYear);
+console.log(Number(inputYear) + 18);
+
+console.log(Number('durell') + 18);
+
+// type coercion
+console.log('I am ' + 23 + ' years old.');
+console.log('23' + '10' + 3);
+
+let n = '1' + 1; // '11'
+n = n - 1; // "10"
+console.log(n);
+
+console.log('10' - '4' - '3' - 2 + '5');
