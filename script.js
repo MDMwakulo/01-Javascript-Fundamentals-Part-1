@@ -228,7 +228,7 @@ if (dolphinsAvg >= 100 || koalasAvg >= 100) {
 }*/
 
 // The switch statement
-const day = 'thursday';
+/*const day = 'thursday';
 
 switch (day) {
 	case 'monday': // day === 'monday'
@@ -266,4 +266,16 @@ if (day === 'monday') {
 	console.log('Enjoy the weekend :D');
 } else {
 	console.log('Not a valid day!');
+}*/
+
+// Statements and Expressions
+3 + 4;
+1997;
+true && false && !false;
+
+if (26 > 18) {
+	const str = '28 is bigger than 18';
 }
+
+const me = 'Durell';
+console.log(`I'm ${me} a ${2023 - 1997} year old boy.`);
